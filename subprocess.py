@@ -10,7 +10,6 @@ DATA_DIR = os.path.join(ROOT_DIR,'data')
 TRAINING_DIR = os.path.join(ROOT_DIR,'training')
 
 
-# Your `init_yaml` function here
 def init_yaml(kfold_number=1):
     data = {
         'path': os.path.join(DATA_DIR,str(kfold_number)),
