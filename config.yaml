@@ -1,0 +1,5 @@
+names:
+  0: wound
+path: /home/arman.iliev001/yolov8_error/data/1
+train: train/images
+val: val/images
